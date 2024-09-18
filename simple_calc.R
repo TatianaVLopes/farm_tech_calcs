@@ -13,3 +13,7 @@ print(paste("Mínimo:", min_area, "Máximo:", max_area))
 # Calcular a variância das áreas
 variancia_areas <- var(areas)
 print(paste("Variância das áreas:", round(variancia_areas, 2)))
+
+# Calcular a amplitude das áreas
+amplitude_areas <- range(areas)
+print(paste("Amplitude das áreas:", amplitude_areas))
